@@ -88,10 +88,10 @@ For example:
 
 For example:
 
-| customer_id | loyalty_score | product_id | product_category | purchase_count |
-| ----------- | ------------- | ---------- | ---------------- | -------------- |
-| C1          | 7             | P2         | F                | 11             |
-| C1          | 7             | P3         | H                | 5              |
-| C2          | 4             | P9         | H                | 7              |
+| customer    | customer_name | loyalty_score | product_id | product_category | purchase_count |
+| ----------- | ------------- |-------------- | ---------- | ---------------- | -------------- |
+| C1          | Agnes Sather  | 7             | P2         | F                | 11             |
+| C1          | Agnes Sather  | 7             | P3         | H                | 5              |
+| C2          | Amber Dryden  | 4             | P9         | H                | 7              |
 
 * Create a user and role for Simon, assign grants to the raw data uploaded and to the new view
